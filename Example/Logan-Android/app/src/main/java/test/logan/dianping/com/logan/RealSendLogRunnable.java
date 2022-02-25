@@ -50,7 +50,7 @@ import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLSession;
 
 public class RealSendLogRunnable extends SendLogRunnable {
-    private String mUploadLogUrl = "http://localhost:3000/logupload";
+    private String mUploadLogUrl = "http://192.168.2.208:8888/logan-web/logan/upload.json";
 
     @Override
     public void sendLog(File logFile) {
@@ -64,7 +64,7 @@ public class RealSendLogRunnable extends SendLogRunnable {
     }
 
     public void setIp(String ip) {
-        mUploadLogUrl = "http://" + ip + ":3000/logupload";
+        mUploadLogUrl = "http://" + ip + ":8888/logan-web/logan/upload.json";
     }
 
     private HashMap<String, String> getActionHeader() {
@@ -92,6 +92,8 @@ public class RealSendLogRunnable extends SendLogRunnable {
     }
 
     private byte[] doPostRequest(String url, InputStream inputData, Map<String, String> headerMap) {
+        Log.i("TAG","doPostRequest:url" + url);
+        int statusCode = -1;
         byte[] data = null;
         OutputStream outputStream = null;
         InputStream inputStream = null;

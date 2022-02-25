@@ -29,6 +29,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -67,31 +68,31 @@ public class MainActivity extends Activity {
         mTvInfo = (TextView) findViewById(R.id.info);
         mEditIp = (EditText) findViewById(R.id.send_ip);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Logan.w("啊哈哈哈哈66666", 2);
             }
         });
-        batchBtn.setOnClickListener(new View.OnClickListener() {
+        batchBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 loganTest();
             }
         });
-        sendBtn.setOnClickListener(new View.OnClickListener() {
+        sendBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 loganSend();
             }
         });
-        logFileBtn.setOnClickListener(new View.OnClickListener() {
+        logFileBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 loganFilesInfo();
             }
         });
-        findViewById(R.id.send_btn_default).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.send_btn_default).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 loganSendByDefault();
@@ -152,7 +153,7 @@ public class MainActivity extends Activity {
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
-        final String url = "https://openlogan.inf.test.sankuai.com/logan/upload.json";
+        final String url = "http://192.168.2.208:8888/logan-web/logan/upload.json";
         SimpleDateFormat dataFormat = new SimpleDateFormat("yyyy-MM-dd");
         final String date = dataFormat.format(new Date(System.currentTimeMillis()));
         Logan.s(url, date, "1", "logan-test-unionid", "deviceId", buildVersion, appVersion, new SendLogCallback() {

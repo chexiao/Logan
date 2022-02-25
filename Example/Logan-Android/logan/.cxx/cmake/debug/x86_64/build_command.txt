@@ -1,0 +1,27 @@
+                    Executable : C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\vueProject\Logan\Example\Logan-Android\logan
+-DCMAKE_C_FLAGS=-std=c11
+-DCMAKE_FIND_ROOT_PATH=E:\vueProject\Logan\Example\Logan-Android\logan\.cxx\cmake\debug\prefab\x86_64\prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Administrator\AppData\Local\Android\Sdk\android-ndk-r15c\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=C:\Users\Administrator\AppData\Local\Android\Sdk\android-ndk-r15c
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=C:\Users\Administrator\AppData\Local\Android\Sdk\android-ndk-r15c
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\vueProject\Logan\Example\Logan-Android\logan\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\vueProject\Logan\Example\Logan-Android\logan\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_MAKE_PROGRAM=C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-DBUILD_TESTING=OFF
+-DANDROID_TOOLCHAIN=gcc
+-BE:\vueProject\Logan\Example\Logan-Android\logan\.cxx\cmake\debug\x86_64
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 1

@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 32
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "test.logan.dianping.com.logan"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -26,6 +26,7 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     compile project(':logan')
+    compile 'com.dianping.android.sdk:logan:1.2.4'
 //    compile 'com.dianping.android.sdk:logan:1.1.0'
 //    releaseCompile project(path: ':logan', configuration: 'release')
 //    debugCompile project(path: ':logan', configuration: 'debug')

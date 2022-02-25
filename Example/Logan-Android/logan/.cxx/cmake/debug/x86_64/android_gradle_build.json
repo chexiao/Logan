@@ -1,0 +1,101 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\vueProject\\Logan\\Logan\\Clogan\\CMakeLists.txt",
+    "E:\\vueProject\\Logan\\Logan\\mbedtls\\library\\CMakeLists.txt",
+    "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mbedcrypto-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+        "mbedcrypto"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "mbedcrypto",
+      "output": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64\\clogan.out\\clogan.out\\libmbedcrypto.a"
+    },
+    "logan-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+        "logan"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "logan",
+      "output": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\liblogan.so",
+      "runtimeFiles": []
+    },
+    "clogan-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+        "clogan"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "clogan",
+      "output": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64\\clogan.out\\libclogan.a"
+    },
+    "lib-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+        "lib"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "lib"
+    },
+    "mbedtls-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+        "mbedtls"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "mbedtls",
+      "output": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64\\clogan.out\\clogan.out\\libmbedtls.a"
+    },
+    "mbedx509-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64",
+        "mbedx509"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "mbedx509",
+      "output": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\x86_64\\clogan.out\\clogan.out\\libmbedx509.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,11 @@
+{
+  "ndk": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c",
+  "revision": {
+    "mMajor": 15,
+    "mMinor": 2,
+    "mMicro": 4203891,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

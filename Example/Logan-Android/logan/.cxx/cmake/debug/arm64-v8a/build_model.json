@@ -1,0 +1,257 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\arm64-v8a",
+  "cxxBuildFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\arm64-v8a",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "cmakeWrappingBaseFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cxx\\debug\\arm64-v8a",
+    "cmakeArtifactsBaseFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\arm64-v8a",
+      "cmakeToolchain": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_C_FLAGS",
+          "value": "-std\u003dc11"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-21"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+        },
+        {
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+          "value": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "21"
+        },
+        {
+          "name": "BUILD_TESTING",
+          "value": "OFF"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "gcc"
+        }
+      ]
+    },
+    "cmakeServerLogFile": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt"
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DBUILD_TESTING\u003dOFF",
+      "-DANDROID_TOOLCHAIN\u003dgcc"
+    ],
+    "cFlagsList": [
+      "-std\u003dc11"
+    ],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "objFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build\\intermediates\\cmake\\debug\\lib",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI",
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build\\intermediates",
+      "gradleModulePathName": ":logan",
+      "moduleRootFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan",
+      "moduleBuildFile": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\build.gradle",
+      "makeFile": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c",
+      "ndkVersion": "15.2.4203891",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "GNUSTL_STATIC",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "MIPS",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "MIPS64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "originalCmakeToolchainFile": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "isPreferCmakeFileApiEnabled": true
+      },
+      "stlSharedObjectMap": {
+        "GNUSTL_SHARED": {
+          "ARMEABI": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\libgnustl_shared.so",
+          "ARMEABI_V7A": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\libgnustl_shared.so",
+          "ARM64_V8A": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\libgnustl_shared.so",
+          "MIPS": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\libgnustl_shared.so",
+          "MIPS64": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\libgnustl_shared.so",
+          "X86": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\libgnustl_shared.so",
+          "X86_64": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\libgnustl_shared.so"
+        },
+        "GNUSTL_STATIC": {},
+        "LIBCXX_SHARED": {
+          "ARMEABI": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi\\libc++_shared.so",
+          "ARMEABI_V7A": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi-v7a\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so",
+          "MIPS": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\mips\\libc++_shared.so",
+          "MIPS64": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\mips64\\libc++_shared.so",
+          "X86": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so",
+          "X86_64": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\llvm-libc++\\libs\\x86_64\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "STLPORT_SHARED": {
+          "ARMEABI": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\armeabi\\libstlport_shared.so",
+          "ARMEABI_V7A": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\armeabi-v7a\\libstlport_shared.so",
+          "ARM64_V8A": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\arm64-v8a\\libstlport_shared.so",
+          "MIPS": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\mips\\libstlport_shared.so",
+          "MIPS64": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\mips64\\libstlport_shared.so",
+          "X86": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\x86\\libstlport_shared.so",
+          "X86_64": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\android-ndk-r15c\\sources\\cxx-stl\\stlport\\libs\\x86_64\\libstlport_shared.so"
+        },
+        "STLPORT_STATIC": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android",
+        "cxxFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\.cxx",
+        "compilerSettingsCacheFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\.cxx",
+        "sdkFolder": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk",
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false,
+        "isV2NativeModelEnabled": true
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabDirectory": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\prefab"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\vueProject\\Logan\\Example\\Logan-Android\\logan\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
+}

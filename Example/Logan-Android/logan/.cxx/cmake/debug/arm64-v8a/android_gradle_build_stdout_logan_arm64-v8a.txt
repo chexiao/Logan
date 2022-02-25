@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\vueProject\Logan\Example\Logan-Android\logan\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.
